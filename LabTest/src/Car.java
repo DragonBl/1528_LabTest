@@ -5,6 +5,12 @@ public class Car {
 	
 	public Car(int cap){
 		
+		this.engineCapacity = cap;
+	}
+	
+	public int getEngineCapacity(){
+		
+		return this.engineCapacity;
 	}
 
 }
